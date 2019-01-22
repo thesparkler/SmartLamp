@@ -252,30 +252,6 @@ public class MainActivity extends AppCompatActivity {
             speak("The time now is " + time);
         }
 
-//        if(command.contains("switch on the lamp") && isOn == false)
-//        {
-//            speak("okay");
-//            imgSwitchOff.setImageResource(R.drawable.ic_switch_on);
-//                playSound();
-//                imgLampOff.setImageResource(R.drawable.lamp_on);
-//                imgLight.setVisibility(View.VISIBLE);
-//        }
-//        else
-//        {
-//            speak("hey, lamp is already on");
-//        }
-
-//        if(command.contains("switch off the lamp")){
-//            speak("okay");
-//            playSound();
-//            imgSwitchOff.setImageResource(R.drawable.ic_switch_off);
-//            imgLampOff.setImageResource(R.drawable.lamp_off);
-//            imgLight.setVisibility(View.INVISIBLE);
-//        }
-//        else{
-//            speak("hey, lamp is already off");
-//        }
-
         if(command.contains("name of your developer")){
             speak("his name is amit");
         }
@@ -325,9 +301,6 @@ public class MainActivity extends AppCompatActivity {
         if(command.contains("switch off the lamp"))
         {
             if(isOn){
-
-       //         speak("hey, lamp is already off");
-
                 speak("okay");
                 playSound();
                 imgSwitchOff.setImageResource(R.drawable.ic_switch_off);
@@ -337,13 +310,6 @@ public class MainActivity extends AppCompatActivity {
                 isOn = false;
             }
             else{
-
-//                speak("okay");
-//                playSound();
-//                imgSwitchOff.setImageResource(R.drawable.ic_switch_off);
-//                imgLampOff.setImageResource(R.drawable.lamp_off);
-//                imgLight.setVisibility(View.INVISIBLE);
-
                  speak("hey, lamp is already off");
 
                 return;
