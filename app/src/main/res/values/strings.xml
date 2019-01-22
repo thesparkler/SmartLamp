@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Smart Lamp</string>
+    <string name="quest_title">Questions you can ask on tap of mic</string>
+    <string name="name">What\'s your name</string>
+    <string name="time">What\'s time</string>
+    <string name="lamp_on">Switch on the lamp</string>
+    <string name="lamp_off">Switch off the lamp</string>
+    <string name="brightness">Make brightness</string>
+    <string name="this_name">Who give you this name</string>
+    <string name="name_developer">What\'s the name of your developer</string>
+    <string name="sleep">Do you sleep</string>
+    <string name="hero">Who is your hero</string>
+    <string name="life_story">What is your life story</string>
+    <string name="HBD">Sing me Happy Birthday</string>
+
+</resources>
